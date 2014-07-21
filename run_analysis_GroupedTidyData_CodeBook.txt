@@ -1,0 +1,273 @@
+Data Dictionary - Averages of mean and standard deviation based on Activity and Subject
+"Activity"
+	Description: Defines activities performed by volunteers
+	Data Type: Character String
+	Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+"Subject"
+	Description: Categorizes volunteers into different buckets based on the activities they perform
+	Data Type: Integer
+	Values: 1 to 30
+"AvgtBodyAccMeanAlongX"
+	Description: Average per Activity per Subject time domain signal of mean of body acceleration along x axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccMeanAlongY"
+	Description: Average per Activity per Subject time domain signal of mean of body acceleration along y axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccMeanAlongZ"
+	Description: Average per Activity per Subject time domain signal of mean of body acceleration along z axis.
+	Data Type: float
+	Values: any
+"AvgtGravityAccMeanAlongX"
+	Description: Average per Activity per Subject time domain signal of mean of gravity acceleration along x axis.
+	Data Type: float
+	Values: any
+"AvgtGravityAccMeanAlongY"
+	Description: Average per Activity per Subject time domain signal of mean of gravity acceleration along y axis.
+	Data Type: float
+	Values: any
+"AvgtGravityAccMeanAlongZ"
+	Description: Average per Activity per Subject time domain signal of mean of gravity acceleration along z axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccJerkMeanAlongX"
+	Description: Average per Activity per Subject time domain signal of mean of jerk along x axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccJerkMeanAlongY"
+	Description: Average per Activity per Subject time domain signal of mean of jerk along y axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccJerkMeanAlongZ"
+	Description: Average per Activity per Subject time domain signal of mean of jerk along z axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroMeanAlongX"
+	Description: Average per Activity per Subject time domain signal of mean of gyroscope raw signal along x axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroMeanAlongY"
+	Description: Average per Activity per Subject time domain signal of mean of gyroscope raw signal along y axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroMeanAlongZ"
+	Description: Average per Activity per Subject time domain signal of mean of gyroscope raw signal along z axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroJerkMeanAlongX"
+	Description: Average per Activity per Subject time domain signal of mean of gyroscope jerk along x axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroJerkMeanAlongY"
+	Description: Average per Activity per Subject time domain signal of mean of gyroscope jerk along y axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroJerkMeanAlongZ"
+	Description: Average per Activity per Subject time domain signal of mean of gyroscope jerk along z axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccMagMean"
+	Description: Average per Activity per Subject time domain signal of mean of body acceleration magnitude.
+	Data Type: float
+	Values: any
+"AvgtGravityAccMagMean"
+	Description: Average per Activity per Subject time domain signal of mean of gravity acceleration magnitude.
+	Data Type: float
+	Values: any
+"AvgtBodyAccJerkMagMean"
+	Description: Average per Activity per Subject time domain signal of mean of body acceleration jerk magnitude.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroMagMean"
+	Description: Average per Activity per Subject time domain signal of mean of body gyroscope magnitude.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroJerkMagMean"
+	Description: Average per Activity per Subject time domain signal of mean of body gyroscope jerk magnitude.
+	Data Type: float
+	Values: any
+"AvgfBodyAccMeanAlongX"
+	Description: Average per Activity per Subject frequency domain signal of mean of body acceleration along x axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccMeanAlongY"
+	Description: Average per Activity per Subject frequency domain signal of mean of body acceleration along y axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccMeanAlongZ"
+	Description: Average per Activity per Subject frequency domain signal of mean of body acceleration along z axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccJerkMeanAlongX"
+	Description: Average per Activity per Subject frequency domain signal of mean of body acceleration jerk along x axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccJerkMeanAlongY"
+	Description: Average per Activity per Subject frequency domain signal of mean of body acceleration jerk along y axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccJerkMeanAlongZ"
+	Description: Average per Activity per Subject frequency domain signal of mean of body acceleration jerk along z axis.
+	Data Type: float
+	Values: any
+"AvgfBodyGyroMeanAlongX"
+	Description: Average per Activity per Subject frequency domain signal of mean of body gyroscope along x axis.
+	Data Type: float
+	Values: any
+"AvgfBodyGyroMeanAlongY"
+	Description: Average per Activity per Subject frequency domain signal of mean of body gyroscope along y axis.
+	Data Type: float
+	Values: any
+"AvgfBodyGyroMeanAlongZ"
+	Description: Average per Activity per Subject frequency domain signal of mean of body gyroscope along z axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccMagMean"
+	Description: Average per Activity per Subject frequency domain signal of mean of body acceleration magnitude.
+	Data Type: float
+	Values: any
+"AvgfBodyBodyAccJerkMagMean"
+	Description: Average per Activity per Subject frequency domain signal of mean of body acceleration jerk magnitude.
+	Data Type: float
+	Values: any
+"AvgfBodyBodyGyroMagMean"
+	Description: Average per Activity per Subject frequency domain signal of mean of body gyroscope magnitude.
+	Data Type: float
+	Values: any
+"AvgfBodyBodyGyroJerkMagMean"
+	Description: Average per Activity per Subject frequency domain signal of mean of body gyroscope jerk magnitude.
+	Data Type: float
+	Values: any
+"AvgtBodyAccStdDevAlongX"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of body acceleration along x axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccStdDevAlongY"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of body acceleration along y axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccStdDevAlongZ"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of body acceleration along z axis.
+	Data Type: float
+	Values: any
+"AvgtGravityAccStdDevAlongX"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gravity acceleration along x axis.
+	Data Type: float
+	Values: any
+"AvgtGravityAccStdDevAlongY"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gravity acceleration along y axis.
+	Data Type: float
+	Values: any
+"AvgtGravityAccStdDevAlongZ"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gravity acceleration along z axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccJerkStdDevAlongX"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of jerk along x axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccJerkStdDevAlongY"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of jerk along y axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccJerkStdDevAlongZ"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of jerk along z axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroStdDevAlongX"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gyroscope raw signal along x axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroStdDevAlongY"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gyroscope raw signal along y axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroStdDevAlongZ"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gyroscope raw signal along z axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroJerkStdDevAlongX"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gyroscope jerk along x axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroJerkStdDevAlongY"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gyroscope jerk along y axis.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroJerkStdDevAlongZ"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gyroscope jerk along z axis.
+	Data Type: float
+	Values: any
+"AvgtBodyAccMagStdDev"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of body acceleration magnitude.
+	Data Type: float
+	Values: any
+"AvgtGravityAccMagStdDev"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of gravity acceleration magnitude.
+	Data Type: float
+	Values: any
+"AvgtBodyAccJerkMagStdDev"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of body acceleration jerk magnitude.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroMagStdDev"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of body gyroscope magnitude.
+	Data Type: float
+	Values: any
+"AvgtBodyGyroJerkMagStdDev"
+	Description: Average per Activity per Subject time domain signal of Standard Deviation of body gyroscope jerk magnitude.
+	Data Type: float
+	Values: any
+"AvgfBodyAccStdDevAlongX"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body acceleration along x axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccStdDevAlongY"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body acceleration along y axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccStdDevAlongZ"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body acceleration along z axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccJerkStdDevAlongX"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body acceleration jerk along x axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccJerkStdDevAlongY"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body acceleration jerk along y axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccJerkStdDevAlongZ"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body acceleration jerk along z axis.
+	Data Type: float
+	Values: any
+"AvgfBodyGyroStdDevAlongX"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body gyroscope along x axis.
+	Data Type: float
+	Values: any
+"AvgfBodyGyroStdDevAlongY"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body gyroscope along y axis.
+	Data Type: float
+	Values: any
+"AvgfBodyGyroStdDevAlongZ"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body gyroscope along z axis.
+	Data Type: float
+	Values: any
+"AvgfBodyAccMagStdDev"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body acceleration magnitude.
+	Data Type: float
+	Values: any
+"AvgfBodyBodyAccJerkMagStdDev"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body acceleration jerk magnitude.
+	Data Type: float
+	Values: any
+"AvgfBodyBodyGyroMagStdDev"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body gyroscope magnitude.
+	Data Type: float
+	Values: any
+"AvgfBodyBodyGyroJerkMagStdDev"
+	Description: Average per Activity per Subject frequency domain signal of Standard Deviation of body gyroscope jerk magnitude.
+	Data Type: float
+	Values: any
