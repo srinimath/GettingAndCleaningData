@@ -1,0 +1,277 @@
+Data Dictionary - Combined data set representing data from both Train and Test extracts alongwith Activity and Subject.
+"Activity"
+	Description: Defines activities performed by volunteers
+	Data Type: Character String
+	Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+"Subject"
+	Description: Categorizes volunteers into different buckets based on the activities they performe
+	Data Type: Integer
+	Values: 1 to 30
+"TrainorTestIndicator"
+	Description: Identifies the extract from which data was originally pulled.
+	Data Type: character string
+	Values: TRAIN, TEST
+"tBodyAccMeanAlongX"
+	Description: Time domain signal of mean of body acceleration along x axis.
+	Data Type: float
+	Values: any
+"tBodyAccMeanAlongY"
+	Description: Time domain signal of mean of body acceleration along y axis.
+	Data Type: float
+	Values: any
+"tBodyAccMeanAlongZ"
+	Description: Time domain signal of mean of body acceleration along z axis.
+	Data Type: float
+	Values: any
+"tGravityAccMeanAlongX"
+	Description: Time domain signal of mean of gravity acceleration along x axis.
+	Data Type: float
+	Values: any
+"tGravityAccMeanAlongY"
+	Description: Time domain signal of mean of gravity acceleration along y axis.
+	Data Type: float
+	Values: any
+"tGravityAccMeanAlongZ"
+	Description: Time domain signal of mean of gravity acceleration along z axis.
+	Data Type: float
+	Values: any
+"tBodyAccJerkMeanAlongX"
+	Description: Time domain signal of mean of jerk along x axis.
+	Data Type: float
+	Values: any
+"tBodyAccJerkMeanAlongY"
+	Description: Time domain signal of mean of jerk along y axis.
+	Data Type: float
+	Values: any
+"tBodyAccJerkMeanAlongZ"
+	Description: Time domain signal of mean of jerk along z axis.
+	Data Type: float
+	Values: any
+"tBodyGyroMeanAlongX"
+	Description: Time domain signal of mean of gyroscope raw signal along x axis.
+	Data Type: float
+	Values: any
+"tBodyGyroMeanAlongY"
+	Description: Time domain signal of mean of gyroscope raw signal along y axis.
+	Data Type: float
+	Values: any
+"tBodyGyroMeanAlongZ"
+	Description: Time domain signal of mean of gyroscope raw signal along z axis.
+	Data Type: float
+	Values: any
+"tBodyGyroJerkMeanAlongX"
+	Description: Time domain signal of mean of gyroscope jerk along x axis.
+	Data Type: float
+	Values: any
+"tBodyGyroJerkMeanAlongY"
+	Description: Time domain signal of mean of gyroscope jerk along y axis.
+	Data Type: float
+	Values: any
+"tBodyGyroJerkMeanAlongZ"
+	Description: Time domain signal of mean of gyroscope jerk along z axis.
+	Data Type: float
+	Values: any
+"tBodyAccMagMean"
+	Description: Time domain signal of mean of body acceleration magnitude.
+	Data Type: float
+	Values: any
+"tGravityAccMagMean"
+	Description: Time domain signal of mean of gravity acceleration magnitude.
+	Data Type: float
+	Values: any
+"tBodyAccJerkMagMean"
+	Description: Time domain signal of mean of body acceleration jerk magnitude.
+	Data Type: float
+	Values: any
+"tBodyGyroMagMean"
+	Description: Time domain signal of mean of body gyroscope magnitude.
+	Data Type: float
+	Values: any
+"tBodyGyroJerkMagMean"
+	Description: Time domain signal of mean of body gyroscope jerk magnitude.
+	Data Type: float
+	Values: any
+"fBodyAccMeanAlongX"
+	Description: Frequency domain signal of mean of body acceleration along x axis.
+	Data Type: float
+	Values: any
+"fBodyAccMeanAlongY"
+	Description: Frequency domain signal of mean of body acceleration along y axis.
+	Data Type: float
+	Values: any
+"fBodyAccMeanAlongZ"
+	Description: Frequency domain signal of mean of body acceleration along z axis.
+	Data Type: float
+	Values: any
+"fBodyAccJerkMeanAlongX"
+	Description: Frequency domain signal of mean of body acceleration jerk along x axis.
+	Data Type: float
+	Values: any
+"fBodyAccJerkMeanAlongY"
+	Description: Frequency domain signal of mean of body acceleration jerk along y axis.
+	Data Type: float
+	Values: any
+"fBodyAccJerkMeanAlongZ"
+	Description: Frequency domain signal of mean of body acceleration jerk along z axis.
+	Data Type: float
+	Values: any
+"fBodyGyroMeanAlongX"
+	Description: Frequency domain signal of mean of body gyroscope along x axis.
+	Data Type: float
+	Values: any
+"fBodyGyroMeanAlongY"
+	Description: Frequency domain signal of mean of body gyroscope along y axis.
+	Data Type: float
+	Values: any
+"fBodyGyroMeanAlongZ"
+	Description: Frequency domain signal of mean of body gyroscope along z axis.
+	Data Type: float
+	Values: any
+"fBodyAccMagMean"
+	Description: Frequency domain signal of mean of body acceleration magnitude.
+	Data Type: float
+	Values: any
+"fBodyBodyAccJerkMagMean"
+	Description: Frequency domain signal of mean of body acceleration jerk magnitude.
+	Data Type: float
+	Values: any
+"fBodyBodyGyroMagMean"
+	Description: Frequency domain signal of mean of body gyroscope magnitude.
+	Data Type: float
+	Values: any
+"fBodyBodyGyroJerkMagMean"
+	Description: Frequency domain signal of mean of body gyroscope jerk magnitude.
+	Data Type: float
+	Values: any
+"tBodyAccStdDevAlongX"
+	Description: Time domain signal of Standard Deviation of body acceleration along x axis.
+	Data Type: float
+	Values: any
+"tBodyAccStdDevAlongY"
+	Description: Time domain signal of Standard Deviation of body acceleration along y axis.
+	Data Type: float
+	Values: any
+"tBodyAccStdDevAlongZ"
+	Description: Time domain signal of Standard Deviation of body acceleration along z axis.
+	Data Type: float
+	Values: any
+"tGravityAccStdDevAlongX"
+	Description: Time domain signal of Standard Deviation of gravity acceleration along x axis.
+	Data Type: float
+	Values: any
+"tGravityAccStdDevAlongY"
+	Description: Time domain signal of Standard Deviation of gravity acceleration along y axis.
+	Data Type: float
+	Values: any
+"tGravityAccStdDevAlongZ"
+	Description: Time domain signal of Standard Deviation of gravity acceleration along z axis.
+	Data Type: float
+	Values: any
+"tBodyAccJerkStdDevAlongX"
+	Description: Time domain signal of Standard Deviation of jerk along x axis.
+	Data Type: float
+	Values: any
+"tBodyAccJerkStdDevAlongY"
+	Description: Time domain signal of Standard Deviation of jerk along y axis.
+	Data Type: float
+	Values: any
+"tBodyAccJerkStdDevAlongZ"
+	Description: Time domain signal of Standard Deviation of jerk along z axis.
+	Data Type: float
+	Values: any
+"tBodyGyroStdDevAlongX"
+	Description: Time domain signal of Standard Deviation of gyroscope raw signal along x axis.
+	Data Type: float
+	Values: any
+"tBodyGyroStdDevAlongY"
+	Description: Time domain signal of Standard Deviation of gyroscope raw signal along y axis.
+	Data Type: float
+	Values: any
+"tBodyGyroStdDevAlongZ"
+	Description: Time domain signal of Standard Deviation of gyroscope raw signal along z axis.
+	Data Type: float
+	Values: any
+"tBodyGyroJerkStdDevAlongX"
+	Description: Time domain signal of Standard Deviation of gyroscope jerk along x axis.
+	Data Type: float
+	Values: any
+"tBodyGyroJerkStdDevAlongY"
+	Description: Time domain signal of Standard Deviation of gyroscope jerk along y axis.
+	Data Type: float
+	Values: any
+"tBodyGyroJerkStdDevAlongZ"
+	Description: Time domain signal of Standard Deviation of gyroscope jerk along z axis.
+	Data Type: float
+	Values: any
+"tBodyAccMagStdDev"
+	Description: Time domain signal of Standard Deviation of body acceleration magnitude.
+	Data Type: float
+	Values: any
+"tGravityAccMagStdDev"
+	Description: Time domain signal of Standard Deviation of gravity acceleration magnitude.
+	Data Type: float
+	Values: any
+"tBodyAccJerkMagStdDev"
+	Description: Time domain signal of Standard Deviation of body acceleration jerk magnitude.
+	Data Type: float
+	Values: any
+"tBodyGyroMagStdDev"
+	Description: Time domain signal of Standard Deviation of body gyroscope magnitude.
+	Data Type: float
+	Values: any
+"tBodyGyroJerkMagStdDev"
+	Description: Time domain signal of Standard Deviation of body gyroscope jerk magnitude.
+	Data Type: float
+	Values: any
+"fBodyAccStdDevAlongX"
+	Description: Frequency domain signal of Standard Deviation of body acceleration along x axis.
+	Data Type: float
+	Values: any
+"fBodyAccStdDevAlongY"
+	Description: Frequency domain signal of Standard Deviation of body acceleration along y axis.
+	Data Type: float
+	Values: any
+"fBodyAccStdDevAlongZ"
+	Description: Frequency domain signal of Standard Deviation of body acceleration along z axis.
+	Data Type: float
+	Values: any
+"fBodyAccJerkStdDevAlongX"
+	Description: Frequency domain signal of Standard Deviation of body acceleration jerk along x axis.
+	Data Type: float
+	Values: any
+"fBodyAccJerkStdDevAlongY"
+	Description: Frequency domain signal of Standard Deviation of body acceleration jerk along y axis.
+	Data Type: float
+	Values: any
+"fBodyAccJerkStdDevAlongZ"
+	Description: Frequency domain signal of Standard Deviation of body acceleration jerk along z axis.
+	Data Type: float
+	Values: any
+"fBodyGyroStdDevAlongX"
+	Description: Frequency domain signal of Standard Deviation of body gyroscope along x axis.
+	Data Type: float
+	Values: any
+"fBodyGyroStdDevAlongY"
+	Description: Frequency domain signal of Standard Deviation of body gyroscope along y axis.
+	Data Type: float
+	Values: any
+"fBodyGyroStdDevAlongZ"
+	Description: Frequency domain signal of Standard Deviation of body gyroscope along z axis.
+	Data Type: float
+	Values: any
+"fBodyAccMagStdDev"
+	Description: Frequency domain signal of Standard Deviation of body acceleration magnitude.
+	Data Type: float
+	Values: any
+"fBodyBodyAccJerkMagStdDev"
+	Description: Frequency domain signal of Standard Deviation of body acceleration jerk magnitude.
+	Data Type: float
+	Values: any
+"fBodyBodyGyroMagStdDev"
+	Description: Frequency domain signal of Standard Deviation of body gyroscope magnitude.
+	Data Type: float
+	Values: any
+"fBodyBodyGyroJerkMagStdDev"
+	Description: Frequency domain signal of Standard Deviation of body gyroscope jerk magnitude.
+	Data Type: float
+	Values: any
