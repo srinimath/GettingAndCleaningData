@@ -1,8 +1,7 @@
-==================================================================
-Merged Accelerometer data from Train and Test
-==================================================================
-Srinivasa Mathkur
-==================================================================
+##Merged Accelerometer data from Train and Test
+
+#Srinivasa Mathkur
+
 
 The scope of this project is to merge Test and Train data, provided in course project in Getting and Cleaning Data course, and generate a new tidy 
 data set grouped on Activity and Subject.
